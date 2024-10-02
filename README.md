@@ -1,58 +1,66 @@
+
 # DeepSense-6G-V2I-CSI-Compression
+
 This repository contains the code implementation for the paper "Deep Learning for Multi-Modal Sensor Fusion and CSI Compression in Vehicular Communications" by Shubham Srivastava, Marian Temprana Alonso, Rounak Chatterjee, Nurassyl Askar, Umut Demirhan, Farhad Shirani, Stefano Rini, and Ahmed Alkhateeb.
 
 
-# Requirements
 
-Python 3.x
+## Requirements
 
-PyTorch
+- Python 3.x
+- PyTorch
+- Additional dependencies (see `requirements.txt`)
 
-Additional dependencies listed in requirements.txt
+## Installation
 
-# Dataset
-The DeepVerse 6G dataset used in this work can be downloaded from the following link: https://www.deepsense6g.net/scenarios/scenario-1/
+1. Clone the repository:
+   ```
+   git clone https://github.com/your_username/DeepSense-6G-V2I-CSI-Compression.git
+   cd DeepSense-6G-V2I-CSI-Compression
+   ```
 
-Download DeepVerse 6G Dataset and put it in the root folder with the code.
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
 
-# Pre-trained Weights
-Pre-trained weights for the models used in this work can be downloaded from the following link: https://iitk-my.sharepoint.com/:f:/g/personal/shubhsr_iitk_ac_in/El5zKVdbMqVFvOj3HpdGZjMBFJNOjelamalNNDcQF178Yw?e=2gxkYG
+## Dataset
 
-Download Pre-trained Weights and put it in the root folder with the code. It should be inside the 'models'. If it is not change the weight path in the codes.
+Download the DeepSense 6G dataset from [DeepSense 6G Scenario 1](https://www.deepsense6g.net/scenarios/scenario-1/) and place it in the root directory.
 
-# Usage
+## Pre-trained Models
 
-Clone the repository:
-Copygit clone https://github.com/your_username/DeepVerse-6G-V2I-CSI-Compression.git
+Pre-trained model weights are available [here](https://iitk-my.sharepoint.com/:f:/g/personal/shubhsr_iitk_ac_in/El5zKVdbMqVFvOj3HpdGZjMBFJNOjelamalNNDcQF178Yw?e=2gxkYG). Download and place them in the `models` directory.
 
-Install the required dependencies:
-Copypip install -r requirements.txt
+## Usage
 
-Download the DeepSense 6G dataset and pre-trained weights using the provided links.
+Our repository includes various evaluation scripts for different experimental setups:
 
-Update the dataset and weights paths in the code as necessary.
+- `Experiment2_<ModelName>_without_MSI-r<X>.ipynb`: Evaluates model performance without Multi-Sensor Information (MSI) for reduction rate X in Experiment 2.
+- `Experiment2_<ModelName>-MSI-r<X>.ipynb`: Evaluates model performance with MSI for reduction rate X in Experiment 2.
+- `Experiment3_<ModelName>_without_MSI-r<X>.ipynb`: Evaluates model performance without MSI for reduction rate X in Experiment 3.
+- `Experiment3_<ModelName>-withMSI-r<X>.ipynb`: Evaluates model performance with MSI for reduction rate X in Experiment 3.
 
-Run the desired experiments or evaluation scripts.
+Replace `<ModelName>` with the specific model and `<X>` with the reduction rate.
 
-Description of our Evaluation Scripts:
-Experiment 2 **Modelname** without MSI-r**X**.ipynb: Such files will run the Evaluation performance for **Modelname** without including any MSI information for a reduction rate of **X** in Experiment 2. That is when GPS, Camera and Radar is OFF.
 
-Experiment 2 **Modelname**-MSI-r**X**.ipynb: Such files will run the Evaluation performance for **Modelname** including the MSI information for a reduction rate of **X** in Experiment 2. That is when we have different subsets of modalities from GPS, Camera and Radar.
 
-Experiment 3 **Modelname** without MSI-r**X**.ipynb: Such files will run the Evaluation performance for **Modelname** without including any MSI information for a reduction rate of **X** in Experiment 3. That is when GPS, Camera and Radar is OFF.
+## Citation
 
-Experiment 3 **Modelname**-withMSI-r**X**.ipynb: Such files will run the Evaluation performance for **Modelname** including the MSI information for a reduction rate of **X** in Experiment 3. That is when we have different subsets of modalities from GPS, Camera and Radar.
+If you use this work in your research, please cite our paper:
 
-# Cite
-If you find this work useful, please cite our paper:
-
-Copy@article{,
+```bibtex
+@article{XYZ,
   title={Deep Learning for Multi-Modal Sensor Fusion and CSI Compression in Vehicular Communications},
   author={Srivastava, Shubham and Alonso, Marian Temprana and Chatterjee, Rounak and Askar, Nurassyl and Demirhan, Umut and Shirani, Farhad and Rini, Stefano and Alkhateeb, Ahmed},
   journal={},
   year={2024}
 }
+```
 
-# Contact
-For any questions or inquiries, please contact the corresponding author:
-Shubham Srivastava (shubhsr@iitk.ac.in),
+## Contact
+
+For inquiries, please contact the corresponding author:
+
+Shubham Srivastava - shubhsr@iitk.ac.in
+
