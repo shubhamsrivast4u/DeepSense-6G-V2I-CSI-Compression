@@ -11,7 +11,7 @@ PyTorch
 Additional dependencies listed in requirements.txt
 
 # Dataset
-The DeepVerse 6G dataset used in this work can be downloaded from the following link:  https://ieee-dataport.org/competitions/deepverse-6g-machine-learning-challenge
+The DeepVerse 6G dataset used in this work can be downloaded from the following link: https://www.deepsense6g.net/scenarios/scenario-1/
 
 Download DeepVerse 6G Dataset and put it in the root folder with the code.
 
