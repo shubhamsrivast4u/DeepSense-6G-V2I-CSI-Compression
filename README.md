@@ -48,7 +48,7 @@ If you find this work useful, please cite our paper:
 
 Copy@article{,
   title={Deep Learning for Multi-Modal Sensor Fusion and CSI Compression in Vehicular Communications},
-  author={Srivastava, Shubham and Alonso, Marian Temprana and Chatterjee, Rounak and Askar, Nurassyl and Demirhan, Umut and Valmeekam, Chandra Shekhara Kaushik and Shirani, Farhad and Rini, Stefano and Alkhateeb, Ahmed},
+  author={Srivastava, Shubham and Alonso, Marian Temprana and Chatterjee, Rounak and Askar, Nurassyl and Demirhan, Umut and Shirani, Farhad and Rini, Stefano and Alkhateeb, Ahmed},
   journal={},
   year={2024}
 }
