@@ -15,7 +15,7 @@ This repository contains the code implementation for the paper "Deep Learning fo
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your_username/DeepSense-6G-V2I-CSI-Compression.git
+   git clone https://github.com/shubhamsrivast4u/DeepSense-6G-V2I-CSI-Compression.git
    cd DeepSense-6G-V2I-CSI-Compression
    ```
 
