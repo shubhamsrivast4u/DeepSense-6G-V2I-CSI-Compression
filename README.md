@@ -45,18 +45,7 @@ Replace `<ModelName>` with the specific model and `<X>` with the reduction rate.
 
 
 
-## Citation
 
-If you use this work in your research, please cite our paper:
-
-```bibtex
-@article{XYZ,
-  title={Deep Learning for Multi-Modal Sensor Fusion and CSI Compression in Vehicular Communications},
-  author={Srivastava, Shubham and Alonso, Marian Temprana and Chatterjee, Rounak and Askar, Nurassyl and Demirhan, Umut and Shirani, Farhad and Rini, Stefano and Alkhateeb, Ahmed},
-  journal={},
-  year={2024}
-}
-```
 
 ## Contact
 
