@@ -23,6 +23,7 @@ This repository contains the code implementation for the paper "Deep Learning fo
    ```
    pip install -r requirements.txt
    ```
+   - consider also installing torch separately
 
 ## Dataset
 
