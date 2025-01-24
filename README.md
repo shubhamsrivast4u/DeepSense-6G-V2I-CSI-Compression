@@ -31,7 +31,7 @@ Download the DeepSense 6G dataset from [DeepSense 6G Scenario 1](https://www.dee
 
 ## Pre-trained Models
 
-Pre-trained model weights are available [here](https://iitk-my.sharepoint.com/:f:/g/personal/shubhsr_iitk_ac_in/El5zKVdbMqVFvOj3HpdGZjMBFJNOjelamalNNDcQF178Yw?e=2gxkYG). Download and place them in the `models` directory.
+Pre-trained model weights are available [here](https://iitk-my.sharepoint.com/:f:/g/personal/shubhsr_iitk_ac_in/El5zKVdbMqVFvOj3HpdGZjMBg0mrjmAKbO-_HjZbzicNeA?e=RjggZY). Download and place them in the `models` directory.
 
 ## Usage
 
