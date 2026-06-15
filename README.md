@@ -27,7 +27,7 @@ This repository contains the code implementation for the paper "Deep Learning fo
 
 ## Dataset
 
-Download the DeepSense 6G dataset from [DeepSense 6G Scenario 1](https://www.deepsense6g.net/scenarios/scenario-1/) and place it in the root directory.
+Download the DeepSense 6G dataset from [DeepVerse 6G Machine Learning Challenge]([https://www.deepsense6g.net/scenarios/scenario-1/](https://ieee-dataport.org/competitions/deepverse-6g-machine-learning-challenge)) and place it in the root directory.
 
 ## Pre-trained Models
 
